@@ -1,10 +1,11 @@
-import "./style.css"
+import "./style.css";
+import Button from "../button";
 
 function List (props) {
-    const {itens = []} = props;
+    const {itens = [], removeItens} = props;
     return (
         <ul>
-            {itens.map((Item, index) => <li key = {index}>{Item}</li>)}
+            {itens.map((Item, index) => <li className = 'itens' key = {index}>{Item} {<Button click = {removeItens.bind(this, Item)} buttonName = 'remove' />}</li>)}
         </ul>
 
     );
