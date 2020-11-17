@@ -5,7 +5,9 @@ Funcionalidades:
 
 >remover item;
 
->editar item (a ser concluida);
+>editar item;
+
+>contador de itens;
 
 =====================================================================================================
 
