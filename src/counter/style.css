@@ -1,0 +1,16 @@
+.counter {
+    display: flex;
+    justify-content: space-between;
+    width: 494.56px;
+    border-top: dashed 1px white;
+}
+
+p {
+    color: white;
+}
+
+@media (max-width: 450px) {
+    .counter {
+        width: 315.31px;
+    }
+}

@@ -1,3 +1,14 @@
+Lista de Compras criada para aprender react.
+Funcionalidades:
+
+>adicionar item;
+
+>remover item;
+
+>editar item (a ser concluida);
+
+=====================================================================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
